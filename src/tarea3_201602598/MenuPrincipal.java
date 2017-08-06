@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author Hector
  */
 public class MenuPrincipal {
-    //obj
+   
     Usuarios objuser=new Usuarios();
     Palindroma objpalin=new Palindroma();
     

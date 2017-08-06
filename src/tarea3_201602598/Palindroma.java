@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Palindroma {
 
-    //cadena introducido por sc.
+   
     public boolean espalindromo(String cadena){
     boolean valor=true;
     int i,ind;    

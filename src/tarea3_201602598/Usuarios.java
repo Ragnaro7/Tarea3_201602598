@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Usuarios {
 private String nombre[]=new String[5];
-    
-    
+
 public void IngresarUsuario(){
-    Scanner sc=new Scanner(System.in);
+    Scanner sciu=new Scanner(System.in);
     
     for(int i=0;i<nombre.length;i++){
         System.out.println("Ingrese un nombre: "+"("+(i+1)+")");
-        nombre[i]=sc.nextLine();
+        nombre[i]=sciu.nextLine();
     
     }//for
     System.out.println("-----------------");
-    this.ImprimirUsuario();
+    this.UsuarioPersonalizado();
+   
 }//IngresarUsuario
 
 public void ImprimirUsuario(){
@@ -23,15 +23,16 @@ public void ImprimirUsuario(){
          System.out.println("-----------------");
         System.out.println((i+1)+". "+nombre[i]);
     }
+    
 }//imprimirUsuario
     
 
 public void UsuarioPersonalizado(){
-    Scanner sc=new Scanner(System.in);
+    Scanner sciu2=new Scanner(System.in);
     boolean per=false;
     String nombreper;
     System.out.println("Ingrese el nombre de usuario: ");
-    nombreper=sc.nextLine();
+    nombreper=sciu2.nextLine();
     
     for(int i=0;i<nombre.length;i++){
         if(nombreper.equalsIgnoreCase(nombre[i])){

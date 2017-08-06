@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Usuarios {
 private String nombre[]=new String[5];
-
+//obj
 public void IngresarUsuario(){
     Scanner sciu=new Scanner(System.in);
     

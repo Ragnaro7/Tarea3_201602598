@@ -3,10 +3,6 @@ package tarea3_201602598;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Hector
- */
 public class MenuPrincipal {
    
     Usuarios objuser=new Usuarios();

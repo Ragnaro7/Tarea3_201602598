@@ -52,7 +52,7 @@ public void UsuarioPersonalizado(){
         
         System.out.println();
         System.out.println("<------------------------------->");
-        System.out.println("No existe ningun usuario con ese nombre");
+        System.out.println("No existe ningun usuario con ese nombre.");
         System.out.println("<------------------------------->");
     }
         
